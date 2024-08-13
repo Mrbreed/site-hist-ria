@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anita Garibaldi - Heroína dos Dois Mundos</title>
+    <style>
+        body {
+            background-image: url('https://img.freepik.com/vetores-gratis/modelo-antigo-mapa-nautico_225004-981.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1723420800&semt=ais_hybrid');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            font-family: 'Times New Roman', Times, serif;
+            color: #333;
+            padding: 20px;
+            margin: 0;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .container {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 800px;
+            margin: auto;
+            opacity: 0;
+            animation: fadeIn 2s forwards;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        h1 {
+            text-align: center;
+            color: #8B0000;
+        }
+
+        img {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+            border-radius: 10px;
+        }
+
+        p {
+            text-align: justify;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Anita Garibaldi</h1>
+        <img src="data:image/webp;base64,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"> <!-- Substitua pela URL da imagem de Anita -->
+        <p>
+            Anita Garibaldi, nascida Ana Maria de Jesus Ribeiro (1821-1849), foi uma revolucionária brasileira, conhecida como a "Heroína dos Dois Mundos" por sua atuação no Brasil e na Europa. Casada com Giuseppe Garibaldi, um dos líderes da unificação italiana, Anita participou ativamente de diversas batalhas ao lado do marido, demonstrando bravura e dedicação às causas de liberdade e justiça.
+        </p>
+        <p>
+            Nascida em Laguna, Santa Catarina, Anita se envolveu nas lutas da Revolução Farroupilha e, posteriormente, nas guerras de unificação italiana. Sua coragem e espírito de liderança a tornaram uma figura icônica tanto no Brasil quanto na Itália, onde é lembrada como uma heroína nacional.
+        </p>
+        <p>
+            Anita faleceu em 1849, aos 28 anos, durante uma retirada militar em Ravenna, Itália. Sua memória, no entanto, perdura como símbolo de resistência e luta pela liberdade, inspirando gerações de mulheres e homens ao redor do mundo.
+        </p>
+    </div>
+</body>
+
+</html>
